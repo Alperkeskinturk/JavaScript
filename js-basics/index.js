@@ -1,11 +1,12 @@
-let person = {
-    name: 'Alper',
-    age: 15
+
+function greet(name, lastName){
+    console.log(name + ' ' + lastName + ' is the best programmer.')
 };
 
-person.name = 'Alper';
+greet('Alper', 'Keskinturk');
 
-let selection = 'name';
-person[selection] = 'Alper';
+function triangle(base, height){
+    return height*base/2
+};
 
-console.log(person.name);
+console.log(triangle(2, 4));
