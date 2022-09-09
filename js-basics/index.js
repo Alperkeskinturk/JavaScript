@@ -10,3 +10,7 @@ function triangle(base, height){
 };
 
 console.log(triangle(2, 4));
+
+for (let i = 0; i <= 100; i++) {
+    console.log(i + i + p);
+}
