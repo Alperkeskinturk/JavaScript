@@ -12,5 +12,16 @@ function triangle(base, height){
 console.log(triangle(2, 4));
 
 for (let i = 0; i <= 100; i++) {
-    console.log(i + i + p);
+    console.log(i + i);
 }
+
+
+
+function addUp(begin, finish){
+    let total = 0;
+    for(let i = begin; i <= finish; i++){
+        total += i;
+    }
+    return total;
+}
+console.log(addUp(2,9))
