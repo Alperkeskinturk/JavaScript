@@ -42,7 +42,7 @@ alert("Access granted")
 
 let myName=prompt("Please say your name")
 alert("Welcome "+myName+ " to your website")
-*/
+
 
 let hour = 19;
 
@@ -57,4 +57,23 @@ else if(hour >= 17 && hour < 21) {
 }
 else {
     console.log('Good Night')
+}
+*/
+
+
+
+
+let age=prompt("Your age?");
+
+if (age > 1 && age< 4) {
+    alert("Baby");
+}
+else if (age >= 5 && age <12 ) {
+    alert('Small Kid');
+}
+else if(age >= 13 && age <20 ) {
+    alert('Teenager');
+}
+else {
+    alert('Old');
 }
